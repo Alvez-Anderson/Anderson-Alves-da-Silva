@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #b3e5fc; /* Azul bebê */
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foto {
+    text-align: center;
+    width: 28%; /* Redução de 20% */
+}
+
+.foto img {
+    border-radius: 8px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.informacoes-contato {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    word-wrap: break-word; /* Permite a quebra de linha */
+    font-size: 14px; /* Reduzido para ajustar melhor o conteúdo */
+}
+
+.informacoes-contato p {
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.informacoes-contato img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.informacoes-contato a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.detalhes {
+    width: 68%; /* Ajuste para a nova largura da foto */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #1e90ff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+}
+
+.emprego, .formacao-item {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.emprego h3, .formacao-item h3 {
+    color: #333;
+    font-size: 20px;
+}
+
+.emprego p, .formacao-item p {
+    color: #555;
+}
+
+.conhecimentos-interesses ul.etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.conhecimentos-interesses ul.etiquetas li {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.idiomas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.idiomas table th, .idiomas table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.idiomas table th {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.idiomas table td {
+    background-color: #f5f5f5;
+    color: #333;
+}
